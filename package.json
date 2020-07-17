@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "UserInterface": "cd UserInterface && yarn start",
-    "heroku-postbuild": "cd UserInterface && yarn install && npm run build",
-    "dev": "concurrently -n 'server,userInterface' -c 'green,blue' \"nodemon ./bin/www\" \"yarn run UserInterface\""
+    "heroku-postbuild": "cd UserInterface && npm install && npm run build",
+    "dev": "concurrently -n 'server,userInterface' -c 'green,blue' \"nodemon ./bin/www\" \"npm run UserInterface\""
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
