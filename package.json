@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "UserInterface": "cd ../UserInterface && npm start",
-    "heroku-postbuild": "cd ../UserInterface && npm install && npm run build",
+    "UserInterface": "cd UserInterface && npm start",
+    "heroku-postbuild": "cd UserInterface && npm install && npm run build",
     "start": "concurrently -n 'server,userInterface' -c 'green,blue' \"nodemon ./bin/www\" \"npm run UserInterface\""
   },
   "dependencies": {
