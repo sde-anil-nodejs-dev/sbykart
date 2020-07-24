@@ -55,6 +55,17 @@ function App() {
             <a className="menuItems" href="signup.html">Sign Up</a>
           </li>
         </ul>
+
+        <h3>Contact Us</h3>
+        <ul>
+          <li>
+            <a className="menuItems" href="tel:9960922747">+91-9960922747</a>
+
+          </li>
+          <li>
+            <a className="menuItems" id="mailId" href="mailto:anilyadav@sbytechnocratesindia.com">anilyadav@sbytechnocratesindia.com</a>
+          </li>
+        </ul>
       </aside>
 
 
