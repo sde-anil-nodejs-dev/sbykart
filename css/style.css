@@ -34,12 +34,10 @@ body {
 .header-links a {
   color: #ffffff;
   text-decoration: none;
-  padding: 10px;
 }
 .header-links a:hover {
   color: orange;
 }
-
 .main {
   grid-area: main;
 }
@@ -50,11 +48,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  position: fixed;
 }
 
 /* Home screen */
@@ -123,7 +116,7 @@ a:hover {
   position: fixed;
   transform: translateX(-30rem);
   width: 30rem;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #000000;
   height: 100%;
   color: #ffffff;
 }
