@@ -78,7 +78,7 @@ function App() {
             </li>
             <li>
               <div className="product">
-                <img class="product-image" src="/images/products/freshfood.jpg" alt="" />
+                <img class="product-image" src="/images/products/food-basket.jpg" alt="" />
                 <div class="product-name">
                   <a href="product.html">Vegitables(Special)</a>
                 </div>
