@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import data from './data'
+// import data from './data'
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import HomeScreen from './components/HomeScreen';
-import ProductScreen from './components/ProductScreen'
+import ProductScreen from './components/ProductScreen';
+import Footer from './components/Footer';
 function App() {
+
   const openMenu = () => {
     document.querySelector(".sidebar").classList.add('open');
   }
@@ -74,13 +76,14 @@ function App() {
 
         <main className="main">
           <div className="content">
-            <Route path="/products/:id" component={ProductScreen} />
+            <Route path="/product/:id" component={ProductScreen} />
             <Route path='/' exact={true} component={HomeScreen} />
 
           </div>
         </main>
-        <footer class="footer">
-          SBYkart.com, All right reserved. Powered by SBY Technocrates India LLP.
+        <footer className="footer">
+          {/* SBYkart.com, All right reserved. Powered by SBY Technocrates India LLP. */}
+          <Footer />
         </footer>
       </div>
     </BrowserRouter>
