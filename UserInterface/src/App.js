@@ -82,7 +82,6 @@ function App() {
           </div>
         </main>
         <footer className="footer">
-          {/* SBYkart.com, All right reserved. Powered by SBY Technocrates India LLP. */}
           <Footer />
         </footer>
       </div>
