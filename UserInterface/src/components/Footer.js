@@ -6,7 +6,7 @@ class Footer extends Component {
         super(props);
         this.state = { apiresponse: "" };
 
-        fetch('http://localhost:4000/kart')
+        fetch('https://sbykart.herokuapp.com/kart')
             .then(response => response.text())
             .then(response => this.setState({ apiresponse: response }));
         console.log(this.state.apiresponse)
