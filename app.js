@@ -21,12 +21,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', kartRouter);
 //
 // react render
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('UserInterface/build'));
+ if (process.env.NODE_ENV === 'production') {
+    app.use(express.static( 'UserInterface/build' ));
 
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'client', 'UserInterface', 'index.html')); // relative path
-  });
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, 'UserInterface', 'build', 'index.html')); // relative path
+    });
 }
 
 // catch 404 and forward to error handler
