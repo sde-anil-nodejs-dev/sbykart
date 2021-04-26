@@ -35,20 +35,13 @@ function App() {
           <button className="sidebar-close-button" onClick={closeMenu}>x</button>
           <ul>
             <li>
-              <a className="menuItems" href={``}>Daily Items</a>
+              <a className="menuItems" href={``}>Slipper</a>
             </li>
             <li>
-              <a className="menuItems" href={``}>Vegitables</a>
+              <a className="menuItems" href={``}>Notebooks</a>
             </li>
-            <li>
-              <a className="menuItems" href={``}>Bakery</a>
-            </li>
-            <li>
-              <a className="menuItems" href={``}>Oils</a>
-            </li>
-            <li>
-              <a className="menuItems" href={``}>Dairy</a>
-            </li>
+           
+
           </ul>
           <h3>Customer Area</h3>
           <ul>

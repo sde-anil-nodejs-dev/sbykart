@@ -8,6 +8,7 @@ function ProductScreen(props) {
     return <>
 
         <div className="details">
+            <Link to="/" className="backttoresult">Back to Home</Link>
             <div className="details-image">
                 <img src={product.image} alt="product-img"></img>
             </div>
@@ -18,7 +19,6 @@ function ProductScreen(props) {
                     <li>
                         {product.rating} Stars ({product.numReviews} Reviews)
                     </li>
-                    <li><h1> {product.price}</h1></li>
                     <li>
                         Description:
                          <div>
@@ -43,7 +43,6 @@ function ProductScreen(props) {
                     <li><button className="addtocart">Add to cart</button></li>
 
                 </ul>
-                <div> <Link to="/" className="backttoresult">Back to Home</Link></div>
             </div>
 
         </div>

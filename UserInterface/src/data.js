@@ -1,44 +1,47 @@
 export default {
     products: [{
         _id: '61662',
-        name: 'Slipper',
+        name: 'Black Slipper',
         category: 'Slipper',
         image: '/images/products/item1.png',
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
         numReviews: 10,
-        description: "It's shirt item"
+        description: "NA"
     },
     {
         _id: '4416',
-        name: 'Slipper',
+        name: 'Light blue',
         category: 'Slipper',
         image: '/images/products/item2.png',
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     },
     {
         _id: '66126',
-        name: 'Slipper',
+        name: 'Light Green',
         category: 'Clothes',
-        image: '/images/products/item1.png',
+        image: '/images/products/item3.png',
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     },
     {
         _id: '6615526',
-        name: 'Slipper',
+        name: 'Orange Slipper',
         category: 'Clothes',
-        image: '/images/products/item2.png',
+        image: '/images/products/item4.png',
         brand: 'SBYkart',
         price: '80 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     },
     {
         _id: '658126',
@@ -48,7 +51,8 @@ export default {
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     },
     {
         _id: '6626',
@@ -58,7 +62,8 @@ export default {
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     },
     {
         _id: '662644',
@@ -68,7 +73,8 @@ export default {
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     },
     {
         _id: '662654545',
@@ -78,7 +84,8 @@ export default {
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     },
     {
         _id: '6626454',
@@ -88,6 +95,7 @@ export default {
         brand: 'SBYkart',
         price: '100 Rs.',
         rating: 4.5,
-        numReviews: 10
+        numReviews: 10,
+        description: "NA"
     }]
 }
